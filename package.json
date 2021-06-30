@@ -12,7 +12,10 @@
     "docker:start": "docker-compose up",
     "docker:stop": "docker-compose stop",
     "docker:destroy": "docker-compose rm -f -v",
-    "docker:destroy:global": "docker system prune -f --volumes && docker image prune -a -f"
+    "docker:destroy:global": "docker system prune -f --volumes && docker image prune -a -f",
+    "open": "npm run open:wp && npm run open:db",
+    "open:wp": "open http://0.0.0.0:8000",
+    "open:db": "open http://localhost:8080/"
   },
   "repository": {
     "type": "git",
