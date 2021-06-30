@@ -1,0 +1,9 @@
+.env
+.DS_Store
+
+# Ignore everything except the README.md files in the database and wordpress folders
+database/*
+!database/README.md
+
+wordpress/*
+!wordpress/README.md
