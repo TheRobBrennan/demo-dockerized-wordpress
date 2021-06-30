@@ -1,3 +1,3 @@
 # Overview
 
-This directory will be used to seed your WordPress database - if desired.
+Use this directory to store the backup of a previously existing WordPress database.
